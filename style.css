@@ -73,10 +73,12 @@
 
 .ex-7-img {
     transition: 2s;}
+
 .ex-7-img:hover{
     filter: grayscale(60%) sepia(50%);}
 
 /* TODO */
+
 /* .ex-7-img{
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -101,11 +103,10 @@
 /* LINK Esercizio 8 */
 
 .ex-8-img {
-    transition: filter, border-radius 5s;}
+    transition: 5s;}
 
 .ex-8-img:hover{
-    filter: grayscale(60%);
-    filter: sepia(80%);
+    filter: grayscale(60%) sepia(80%);
     border-radius: 40px;}
 
 /* LINK Esercizio 9 */
@@ -114,13 +115,59 @@
     margin: 50px 100px;
     width: 400px;}
 
+.ex-9-img {
+    transition: 2s;}
+
+.ex-9-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);}
+
 /* LINK Esercizio 10 */
+
 .ex-10-icon {
-    font-size: 60px;
-}
+    font-size: 60px;}
+
+.ex-10-icon {
+    animation: girogirotondo 3s linear infinite;}
+
+@keyframes girogirotondo {
+    0% {
+        transform: rotate(1turn);
+        }
+    }
+
+
+
+
+
+/* LINK Esercizio 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: giromonco 2s linear;
+}
+
+@keyframes giromonco {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+/* LINK Esercizio 12 */
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;

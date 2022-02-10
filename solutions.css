@@ -67,6 +67,7 @@
 .ex-11-icon:hover {
     animation: spinALittleBit 2s linear;
 }
+
 @keyframes spinALittleBit {
     0% {
         transform: rotate(0);
@@ -78,6 +79,7 @@
         transform: rotate(0);
     }
 }
+
 .ex-12-button:hover .ex-12-top-white {
     animation: moveTopWhite 2s linear;
 }
